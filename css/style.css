@@ -1,0 +1,126 @@
+
+html{
+    font-family: helvetica;
+
+    background-color: rgb(134, 36, 36);
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*header*/
+.header{
+    text-align: center;
+}
+.main-title{
+    font-size: 40px;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+/*Imagem destaque*/
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+.img-bold{
+    text-align: center;
+    margin:10px 20px;
+}
+
+/*Biografia*/
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(150, 52, 52);
+    border-bottom: 1px dashed rgb(150, 52, 52);
+}
+/*Quote*/
+.quotes-container{
+    background-color: #ddd;
+    padding: 5px;
+    display: center;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/*Curiosidades*/
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(150, 52, 52);
+    border-bottom: 1px dashed rgb(150, 52, 52);
+
+}
+
+li{
+    height: 90px;
+    margin-top: auto;
+    font-size: 17px;
+    font-family: helvetica;
+}
+
+/*Imagem bold*/
+.img-bold{
+    font-weight: italic;
+    text-align: center;
+}
+
+/*Mais info*/
+.moreinfo-container{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 900px){
+    img{
+        width: 100%;  
+    }
+    .header{
+        width: 100%;
+    }
+      li{
+     height: 135px;
+     margin-top: 20px;
+     font-size: 15px;
+     font-family: Helvetica;
+}
+    }
+    
+    @media only screen and (max-width:400px){
+    .quotes-container{
+        width: 100%;
+        text-align: center;
+        border-right: 13px;
+    }
+    li{
+        height: 90%;
+        font-size: 15px;
+        font-family: Helvetica;
+}
+.header{
+    width: 100%;
+}
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    }
+}
